@@ -23,4 +23,4 @@
 - CSS
 - JavaScript
 
-ساخته شده توسط NEVAR.
+ساخته شده توسط BROTEX.
