@@ -17,6 +17,7 @@ button:hover{background:#414141}button:active{transform:scale(.96)}
 .function{background:#2a2a2a}.operator{background:#323232;font-size:22px}
 .equal{background:#76b9ed;color:#111;font-weight:bold}.equal:hover{background:#8ac6f1}
 .zero{grid-column:span 2}.history{margin-top:12px;color:#888;font-size:13px;text-align:right;min-height:18px;overflow:hidden}
+.credit{margin-top:14px;text-align:center;color:#777;font-size:11px}
 @media(max-width:400px){.calculator{width:100%;max-width:100%;min-height:100vh;border-radius:0;padding:14px}button{height:65px}.display{height:120px;font-size:38px}}
 </style>
 </head>
@@ -33,7 +34,9 @@ button:hover{background:#414141}button:active{transform:scale(.96)}
 <button data-action="sign">±</button><button class="zero" data-number="0">0</button><button data-action="decimal">.</button>
 <button class="operator" data-operator="+">+</button>
 <button class="equal" data-action="equals" style="grid-column:span 4">=</button>
-</div></div>
+</div>
+<div class="credit">ساخته شده توسط محمدمهدی اکبری</div>
+</div>
 <script>
 const display=document.getElementById("display"),historyDisplay=document.getElementById("history");
 let current="0",previous=null,operator=null,waitingForNumber=false;
